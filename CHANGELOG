@@ -1,0 +1,7 @@
+24-sep-2007
+	Исправлена ошибка повторной отправки MAGIC-пакета.
+19-jul-2007
+	В конфиг файл добавлена директива local-out-ip
+
+29-may-2007
+	conf-file.c - core dumped on config file open error. Fixed.

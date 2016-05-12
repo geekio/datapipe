@@ -1,0 +1,23 @@
+#
+#
+#
+
+# Accept connections only on localhost:11007 
+local-ip 127.0.0.1
+local-port 11001 
+# Outgoing connection from mydomain.io
+local-out-ip mydomain.io
+
+login-type \x0
+login-type \x0
+login-type \x0
+
+type \x0 172.16.1.4 11001
+
+# 0xxx logins will be sent to zero.io:110016
+name 0	zero.off 11006
+# 1xxx logins will be sent to one.io:110016
+name 1  one.off 11006
+name-default 172.16.1.4 110016
+
+# End of config file
